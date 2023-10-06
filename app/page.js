@@ -9,8 +9,8 @@ export default function Home() {
         <Image
           src="/logo.png"  // Substitua pelo caminho da sua logo
           alt="https://www.youtube.com/@GuyMotion/"
-          width={50}
-          height={50}
+          width={150}
+          height={100}
         />
       </div>
 
