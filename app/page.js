@@ -7,9 +7,9 @@ export default function Home() {
       {/* Top Logo */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
         <Image
-          src="/logo.png"  // Substitua pelo caminho da sua logo
+          src="/logo.png"
           alt="https://www.youtube.com/@GuyMotion/"
-          width={150}
+          width={50}
           height={100}
         />
       </div>
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Animated GIF */}
       <div className="relative flex place-items-center h-48 w-full items-end justify-center">
         <img
-          src="/your-animated-logo.gif"  // Substitua pelo caminho do seu GIF animado
+          src="/your-animated-logo.gif"
           alt="Animated Logo"
           className="dark:invert"
           width={100}
