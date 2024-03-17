@@ -7,10 +7,10 @@ export default function Home() {
       {/* Top Logo */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
         <Image
-          src="/logo.png"
-          alt="https://www.youtube.com/@GuyMotion/"
-          width={50}
-          height={100}
+          src="/gmlettersHD.png"
+          alt="guy motion but there are letters"
+          width={350}
+          height={240}
         />
       </div>
 
@@ -61,8 +61,8 @@ export default function Home() {
       {/* Animated GIF */}
       <div className="relative flex place-items-center h-48 w-full items-end justify-center">
         <img
-          src="/your-animated-logo.gif"
-          alt="Animated Logo"
+          src="/urnowseeingaGMW.gif"
+          alt="an animated logo"
           className="dark:invert"
           width={100}
           height={100}
