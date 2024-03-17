@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* Top Logo */}
-      <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
         <Image
           src="/gmlettersHD.png"
           alt="guy motion but there are letters"
@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* Animation Section */}
       <section className="mb-16 text-center">
-        <Link href="/animations"> {/* Substitua pelo link correto */}
+        <Link href="/animations">
           <a className="text-3xl font-semibold mb-4 hover:underline">Animations</a>
         </Link>
         <p className="text-gray-600 mb-8">
@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Drawing Section */}
       <section className="mb-16 text-center">
-        <Link href="/drawings"> {/* Substitua pelo link correto */}
+        <Link href="/drawings">
           <a className="text-3xl font-semibold mb-4 hover:underline">Drawings</a>
         </Link>
         <p className="text-gray-600 mb-8">
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* Games Section */}
       <section className="mb-16 text-center">
-        <Link href="/games"> {/* Substitua pelo link correto */}
+        <Link href="/games">
           <a className="text-3xl font-semibold mb-4 hover:underline">Games</a>
         </Link>
         <p className="text-gray-600 mb-8">
@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* Music Section */}
       <section className="mb-16 text-center">
-        <Link href="/music"> {/* Substitua pelo link correto */}
+        <Link href="/music">
           <a className="text-3xl font-semibold mb-4 hover:underline">Music</a>
         </Link>
         <p className="text-gray-600 mb-8">
