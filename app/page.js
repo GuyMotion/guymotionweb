@@ -7,8 +7,8 @@ export default function Home() {
       {/* Top Logo */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
         <Image
-          src="/gmlettersHD.png"
-          alt="guy motion but there are letters"
+          src="/webtitle.png"
+          alt="web title"
           width={350}
           height={240}
         />
@@ -61,8 +61,8 @@ export default function Home() {
       {/* Animated GIF */}
       <div className="relative flex place-items-center h-48 w-full items-end justify-center">
         <img
-          src="/urnowseeingaGMW.gif"
-          alt="an animated logo"
+          src="/cool.gif"
+          alt="a cool gif"
           className="dark:invert"
           width={100}
           height={100}
